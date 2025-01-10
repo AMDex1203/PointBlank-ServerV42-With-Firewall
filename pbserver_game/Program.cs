@@ -12,9 +12,9 @@ using Game.adminConsole;
 using Game.data;
 using Game.data.filters;
 using System.Threading;
-using Core.Logs;
 using Core.Version;
 using System.Diagnostics;
+using Core.Logs;
 
 namespace Game
 {
@@ -32,7 +32,7 @@ namespace Game
 
 
             TimeStarted = DateTime.Now;
-            SaveLog.aplication = "game";
+            //SaveLog.aplication = "game";
 
             Console.Title = "PointBlank - Game";
             header(true);
